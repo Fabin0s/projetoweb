@@ -14,10 +14,12 @@ body {
     flex-direction: column;
     align-content: center;
 }
-#conteudo{
+
+#conteudo {
     margin-bottom: 100px;
- 
+
 }
+
 #cabec {
     display: flex;
     justify-content: space-around;
@@ -122,6 +124,7 @@ body {
 #site {
     width: 1300px;
 }
+
 #ppage {
     display: flex;
     color: white;
@@ -477,6 +480,7 @@ strong {
     text-decoration: none;
     transition: box-shadow 200ms ease-out;
 }
+
 #bpix {
     margin-left: 75px;
 }
@@ -493,6 +497,7 @@ strong {
     background-color: #df236ee0;
     text-align: center;
 }
+
 /*--------------------------Login e Cadastro--------------------------*/
 
 #logcad {
@@ -500,7 +505,7 @@ strong {
     justify-content: center;
 }
 
-.textlogcad{
+.textlogcad {
     color: white;
 }
 
@@ -530,7 +535,7 @@ strong {
 }
 
 .subcad {
-     margin: 0px 0px 25px 30px;
+    margin: 0px 0px 25px 30px;
 }
 
 .loginsenha {
@@ -558,7 +563,8 @@ strong {
 .incpf {
     background-image: url(ImgPP/cpf.png);
 }
-.incpf::placeholder{
+
+.incpf::placeholder {
     color: black;
 }
 
@@ -580,7 +586,7 @@ strong {
     background-image: url(ImgPP/telefone.png);
 }
 
-.intelefone::placeholder{
+.intelefone::placeholder {
     color: black;
 }
 
@@ -688,4 +694,68 @@ strong {
     background-position: center;
     background-size: 24px;
     background-repeat: no-repeat;
+}
+
+/*Carrinho e finalização de compra */
+* {
+    background-color: white;
+}
+
+/*remover depois*/
+#carcarrinho {
+    background-color: black;
+}
+
+#carpedido {
+    display: flex;
+}
+
+.colprod {
+    display: flex; 
+}
+#linhaprod{
+    width: 500px;
+}
+
+#descdireita {
+    display: flex;
+    width: 350px;
+}
+.textdireito{
+    margin-right: 55px;
+}
+
+.carprod {
+    display: flex;
+}
+
+#resumoped{
+    border: solid;
+    padding: 30px;
+    height: 100%;
+}
+
+.caixa {
+
+    display: flex;
+}
+
+#subfrete {
+    width: 250px;
+}
+
+#cupom {
+    margin-left: 30px;
+    text-align: center;
+    width: 275px;
+}
+#partedebaixo{
+    display: flex;
+    margin-right: ;
+}
+.desccar{
+    display: flex;
+}
+.prodimg-desc{
+    width: 400px;
 }

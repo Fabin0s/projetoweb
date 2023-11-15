@@ -10,23 +10,89 @@
 
 <body>
     <div id="site">
-        <div id="carrinho">
-            <div id="pedido">
-                <h2>Meu pedido: </h2>
-                <div>
-                    <div class="descarrinho">
-                        <p>produto</p>
-                    </div>
-                    <div class="descarrinho">
-                        <p>Descrição do produto</p>
-                        <p>Preço</p>
-                    </div>
-                    <div class="descarrinho">
-                        
-                    </div>
-                    <div class="descarrinho">
+        <div id="carcarrinho">
+            <div id="carpedido">
+                <div id="nmcol">
+                    <h2>Meu pedido: </h2>
+                    <div class="descarrinho colprod">
+                        <p id="linhaprod">produto</p>
+                        <div id="descdireita">
+                            <p class="textdireito">quantidade</p>
+                            <p class="textdireito">remover</p>
+                            <p class="textdireito">preço</p>
+                        </div>
 
                     </div>
+                    <hr>
+                    <div id="imgprodscar">
+                        <div class="descarrinho carprod">
+                            <img src="ImgPP/animals.png" alt="" class="imgb">
+                            <div class="desccar">
+                                <div class="prodimg-desc">
+                                    <h3>Disco Animals - Pink Floyd</h3>
+                                    <p>Disco lançado em 1977</p>
+                                </div>
+                                <div>
+                                    <div class="qtd">
+                                        <input type="number" value="1" min="1" max="50" step="1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="descarrinho carprod">
+                            <img src="ImgPP/atomhm.png" class="imgb" alt="">
+                            <div class="desccar">
+                                <div class="prodimg-desc">
+                                    <h3>Disco Atom Heart Mother - Pink Floyd</h3>
+                                    <p>Disco lançado em 1970</p>
+                                </div>
+                                <div class="qtd">
+                                    <input type="number" value="1" min="1" max="50" step="1" />
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="descarrinho carprod">
+                            <img src="ImgPP/darksideredux.png" class="imgb" alt="">
+                            <div class="desccar">
+                                <div class="prodimg-desc">
+                                    <h3>Dark Side of the Moon - Roger Waters</h3>
+                                    <p>Disco lançado em 2023</p>
+                                </div>
+                                <div class="qtd">
+                                    <input type="number" value="1" min="1" max="50" step="1" />
+                                </div>
+                                <div class="lixo">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div <hr>
+                </div>
+                <div id="resumoped">
+                    <h2>Resumo do pedido</h2>
+                    <div class="caixa">
+                        <div id="subfrete">
+                            <p>subtotal</p>
+                            <p>frete</p>
+                        </div>
+                        <div id="valores">
+                            <p>R$999,00</p>
+                            <p>R$999,00</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="caixa">
+                        <div id="subfrete">
+                            <p>Total</p>
+                        </div>
+                        <div id="valores">
+                            <p>R$999,00</p>
+                        </div>
+
+                    </div>
+                    <p id="cupom">possui cupom ou vale?você poderá usá-los na etapa de pagamento</p>
                 </div>
             </div>
         </div>
