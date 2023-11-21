@@ -2,6 +2,7 @@
     font-family: 'Mohave', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 body {
@@ -17,7 +18,6 @@ body {
 
 #conteudo {
     margin-bottom: 100px;
-
 }
 
 #cabec {
@@ -697,9 +697,7 @@ strong {
 }
 
 /*Carrinho e finalização de compra */
-* {
-    background-color: white;
-}
+
 
 /*remover depois*/
 #carcarrinho {
@@ -730,6 +728,7 @@ strong {
 }
 
 #resumoped{
+    margin-left: 30px;
     border: solid;
     padding: 30px;
     height: 100%;
@@ -758,4 +757,31 @@ strong {
 }
 .prodimg-desc{
     width: 400px;
+}
+.lixo{
+    margin-left: 70px;
+}
+.imglixo{
+    width: 35px;
+    border: none;
+}
+.botaolixo{
+    background: none;
+    border: none;
+}
+.precobotao{
+    margin-left: 70px;
+}
+/*----------------- Final compra -----------------*/
+.textdireitofinal{
+    margin-left: 270px;
+}
+.precobotaofinal{
+    margin-left: 250px;
+}
+#finalcompra{
+    display: flex;
+}
+#endentrega{
+    width: 850px;
 }
